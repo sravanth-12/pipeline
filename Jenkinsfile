@@ -11,15 +11,12 @@ pipeline {
               echo "to test a jenkins pipeline"
             }
           }
-           stage("changes") {
-            steps{
-              echo "to changes a jenkins pipeline"
-            }
-          }
+          
            stage("deploy") {
             steps{
               echo "to deploy a jenkins pipeline"
             }
+           }
           }
         }
-}
+
